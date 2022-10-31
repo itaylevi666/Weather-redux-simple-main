@@ -1,0 +1,71 @@
+html {
+  background-color: #e3f4fe;
+  background-image:url("https://image.freepik.com/free-photo/wheatfield-sunset_1160-584.jpg") ;
+   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+
+  text-align: center;
+  background-image:url("https://image.freepik.com/free-photo/wheatfield-sunset_1160-584.jpg") ;
+   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-color: #e3f4fe;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.city-cards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.city-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.city-card a,
+.city-card a:focus,
+.city-card a:hover,
+.city-card a:visited,
+.city-card a:link,
+.city-card a:active{
+  color: #fff;
+  text-decoration: none;
+}
+
+.city-card a:hover .single-day {
+  background-color: #19c3fb;
+}
+
+.top-weather {
+  border-bottom: solid 0.8px gray;
+}
+
+.small-image {
+  width: 50%;
+  height: auto;
+  margin-bottom: 2px;
+}
+
+.search-bar {
+  min-width: 200px;
+}
+
+.single-day {
+  background-color: #1c9cf6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.weekly-forecast .single-day {
+  border-radius: 10px;
+  min-width: 220px;
+}
